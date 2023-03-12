@@ -13,6 +13,54 @@
   }
 }
 
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://9mobi.vn/cf/images/2015/03/nkk/hinh-anh-dep-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+.login-container {
+  max-width: 500px;
+  width: 100%;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+}
+.login-title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.login-container input {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 6px 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+.login-remember {
+  width: auto !important;
+}
+.login-container button:hover {
+  background-color: darkgreen;
+}
+.login-container button:active {
+  background-color: rgb(27, 48, 27);
+}
+.login-container button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+.login-container span.text-danger {
+  display: block;
+  margin-bottom: 16px;
+}
+.user-data {
+  border: solid 1px rgb(27, 48, 27);
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
