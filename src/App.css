@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 .login-wrapper {
   display: flex;
@@ -15,7 +11,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
+
 }
 .login-container {
   max-width: 500px;
